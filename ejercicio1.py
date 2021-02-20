@@ -1,4 +1,4 @@
-def length(numero):
+def contador(numero):
     cambio=str(numero)
     contador=0
     for i in cambio:
