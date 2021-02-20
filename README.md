@@ -55,28 +55,26 @@ format_numer(43214124) -> '43#214#124'
 
 
 ## Ejercicio 5
-￼
-￼Crear una funcion que pluralice si un elemento se repite en una lista dada como argumento
-￼
-￼- El resultado tiene que ser un iterable (tuple, lista o set)
-￼
-￼**Ejemplos**
-￼
-￼`pluralize(['apple','peach', 'apple']) -> ['apples','peach'] || ('apples', 'peach') || {'apples', 'peach'}`  
-￼
-￼`pluralize(['cat', 'dog', 'cat', 'cat', 'dog', 'rabbit']) -> ['cats','dogs', 'rabbit'] || ('cats', 'dogs', 'rabbit') || {'cats', 'dogs', 'rabbit'}`
-￼
-￼**Restricciones**
-￼- El argumento tiene que ser una lista `[]`
+Crear una funcion que pluralice si un elemento se repite en una lista dada como argumento
+- El resultado tiene que ser un iterable (tuple, lista o set)
+
+**Ejemplos**
+
+`pluralize(['apple','peach', 'apple']) -> ['apples','peach'] || ('apples', 'peach') || {'apples', 'peach'}`  
+
+`pluralize(['cat', 'dog', 'cat', 'cat', 'dog', 'rabbit']) -> ['cats','dogs', 'rabbit'] || ('cats', 'dogs', 'rabbit') || {'cats', 'dogs', 'rabbit'}`
+
+**Restricciones**
+- El argumento tiene que ser una lista `[]`
 ￼
 ￼
-￼## Ejercicio 6
-￼
-￼Crear una funcion que cree cajas basadas en un argumento
-￼
-￼**Ejemplos**
-￼
-￼```python
+## Ejercicio 6
+
+Crear una funcion que cree cajas basadas en un argumento
+
+**Ejemplos**
+
+```python
 ￼make_box(1) 
 ￼[
 ￼    "#"
