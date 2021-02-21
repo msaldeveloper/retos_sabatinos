@@ -32,7 +32,7 @@ Crear una funcion que devuelva el factorial de un numero
 factorial(3)-->6(321)
 - investigar que demonios es la recursividad
 
-## Ejercicio 4
+# Ejercicio 4
 Crear una funcion que formatee numeros ￼
 
 **Ejemplos**
@@ -45,7 +45,7 @@ format_numer(43214124) -> '43,214,124'
 
 El argumento no puede ser negativo
 El argumento deben ser entero
-### Ejercicio 4.1**
+### **Ejercicio 4.1**
 Agregar el separador que el usuario indique
 **Ejemplo**
 
@@ -54,7 +54,7 @@ format_numer(1000,'#') -> '1#000'
 format_numer(43214124) -> '43#214#124'
 
 
-## Ejercicio 5
+# Ejercicio 5
 Crear una funcion que pluralice si un elemento se repite en una lista dada como argumento
 - El resultado tiene que ser un iterable (tuple, lista o set)
 
@@ -68,7 +68,7 @@ Crear una funcion que pluralice si un elemento se repite en una lista dada como 
 - El argumento tiene que ser una lista `[]`
 ￼
 ￼
-## Ejercicio 6
+# Ejercicio 6
 
 Crear una funcion que cree cajas basadas en un argumento
 
@@ -100,4 +100,3 @@ Crear una funcion que cree cajas basadas en un argumento
 ￼    "#  #",
 ￼    "####",
 ￼]
-￼```
