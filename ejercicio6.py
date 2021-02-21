@@ -11,8 +11,8 @@ def caja(simbolo,tamaño=1):
             espacio=" "
             print(simbolo+espacio+simbolo)
         if tamaño > 3:
-            espacio=" "*(tamaño-4)
-            print(simbolo,espacio,simbolo)
+            espacio=" "*(tamaño-2)
+            print(simbolo+espacio+simbolo)
     if tamaño > 1:
         print(simbolo*tamaño)
    
